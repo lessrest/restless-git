@@ -1,12 +1,12 @@
-{ mkDerivation, base, bytestring, clock, containers, HSH, stdenv
-, tasty, tasty-hunit, temporary, text, time
+{ mkDerivation, base, bytestring, containers, HSH, stdenv, tasty
+, tasty-hunit, temporary, text, time
 }:
 mkDerivation {
   pname = "restless-git";
-  version = "0.5";
+  version = "0.5.0";
   src = ./.;
   libraryHaskellDepends = [
-    base bytestring clock containers HSH text time
+    base bytestring containers HSH text time
   ];
   testHaskellDepends = [
     base bytestring containers tasty tasty-hunit temporary text
