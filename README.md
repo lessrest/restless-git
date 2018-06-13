@@ -1,4 +1,3 @@
-# restless-git
+# restless-git -- this repository has moved
 
-In order to more easily use Git repositories as a simple state store
-for applications, we made this library.
+[Go to the new repository.](https://github.com/dapphub/dapptools/tree/master/restless-git)
